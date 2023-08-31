@@ -10,7 +10,7 @@
     $(function(){
       $("#dark").click(function () {
          $(this).text(function(i, text){
-             return text === "Modo Oscuro" ? "Modo Claro" : "Modo Claro";
+             return text === "color-mode" ? "Modo Claro" : "Modo Oscuro";
          })
       });
    })
